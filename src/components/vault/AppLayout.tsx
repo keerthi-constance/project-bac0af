@@ -29,7 +29,7 @@ export function AppLayout() {
                 <Command className="size-3" /> K
               </span>
               <Select value={speed} onValueChange={(v) => setSpeed(v as AnimationSpeed)}>
-                <SelectTrigger size="sm" className="mono w-[122px] text-xs">
+                <SelectTrigger className="mono h-8 w-[132px] text-xs">
                   <Zap className="size-3.5 text-primary" />
                   <SelectValue />
                 </SelectTrigger>
